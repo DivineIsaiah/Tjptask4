@@ -8,12 +8,11 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-      <div class="box">
+      <div class="parentContainer">
           <p class="head">Names of Active Joy School Members</p>
 <p class="lower">Here is a list of Developement students. If you can't find your name please chat @able or @mercy.</p>
 <table>
     <thead>
-        
         <tr>
     <th>First Name</th>
     <th>Last Name</th>
@@ -69,19 +68,24 @@
   </tbody>
 </table>
 </div>
-	 <button>Send Report</button>
+
+	 <div class="childrep"><button>Send Report</button></div>
+	 
   </body>
 </html>
 
 <style>table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
-    padding: 10px;
-    text-align: left;}
+    padding: 10px 12px;
+    text-align: left;
+    }
     
-    table{width: 100%;
+    table{width: 80%;
     box-sizing: border-box;}
     td{padding-right: 70px;}
+    
+    .lower{width: 80%}
     
     button{color: black;
     font-weight: bold;
@@ -92,7 +96,9 @@
     margin-top: 17px;
     border-radius: 10px}
     
-    .box{background: rgb(254, 227, 216)}
+    .parentContainer{padding: 0 2% 0 2%}
+    
+     .childrep{padding: 0 2%;}
     
     body{background: rgb(254, 227, 216)}
     
